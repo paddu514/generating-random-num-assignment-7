@@ -1,0 +1,23 @@
+package main 
+  
+import ( 
+    "fmt"
+    "math/rand"
+) 
+  
+ 
+func main() { 
+  
+    
+    for _, res_1 := range rand.Perm(4) { 
+  
+        
+        fmt.Println("Slice 1 Element: ", res_1) 
+    } 
+    for _, res_2 := range rand.Perm(3) { 
+  
+       
+        fmt.Println("Slice 2 Element: ", res_2) 
+    } 
+  
+} 
